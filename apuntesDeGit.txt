@@ -1,0 +1,8 @@
+APUNTES DE GIT:
+>COMO NAVEGAR PARA LLEGAR ACA
+ - cd d
+ - cd 2022
+ - cd open-bootcamp
+ - cd front -end 
+ - cd git 
+ - cd apuntes
