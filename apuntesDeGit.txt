@@ -6,3 +6,36 @@ APUNTES DE GIT:
  - cd front -end 
  - cd git 
  - cd apuntes
+> git init --- incializar git en tu repositorio local
+> git status --- verificar en que esta se encuntra tu archivo
+> git add + "nombre de la carpeta" || agregar al repositorio
+> git commit -am "Que cambio se a hehcho"
+> git log || los cambios que se han hecho 
+> Hola e hecho un cambio > mensaje || cambio dentro del archivo
+> ls -altr || las carpetas que no se ven
+> cd .git || para ver lo archivos que hay dentro de la carpeta oculta "git"
+> find .|| a profundo
+> cat index || acá veremps nuestro codigo fuente
+> touch + nombre de carpeta || para crear una archivo
+> git config --global user.name + "tu nombre" || creas tu usuario para hacer los cambios 
+> git config --global user.mail + "tu correo" || agregas tambien tu correo para hacer los cambios
+-------------------------------------------------------------------------------
+||https://github.com/EfraelTino/start-git|| mi repositorio del curso
+||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|| mi token para el curso
+COMO PASAR MI REPOSITORIO O ARCHIVO CON OTRA PERSONA:
+> creas tu repositorio sin licencia y copias la URL
+> git remote add origin ||el origin es el nombre || https://github.com/EfraelTino/starti-git.git ||agregas tu repositorio||
+> cat .git/config vemos la configuracion y dentro de esta se hace el cambio
+>git branch -M main || Creamos la rama main o principal|| 
+>git push || Enviar mis historial de cambios al servidor
+> git push -u origin main || boy a enviar mi historial de configuraciones por primera vez al repositorio origin|| || origin hace referencia: la rama 
+> got clone para descargar nuestro repositorio desde github
+> cp ../apuntes/* .para copiar la carpeta
+> git push https://github.com/EfraelTino/starti-git.git || mandas los cambios que estas haciendo||
+
+
+PASOS PARA ACTUALIZAR NUESTRO REPOSITORIO CORRECTAMENTE: 
+> primero git add
+> git commit 
+> git push origin
+> git push +  nombre de la carpeta
